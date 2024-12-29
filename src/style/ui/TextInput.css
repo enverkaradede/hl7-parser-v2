@@ -1,0 +1,100 @@
+.text-input {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5b5;
+  box-shadow:
+    0 8px 8px 1px rgba(0, 0, 0, 0.1),
+    0 10px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1a202c;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  /* font-weight: 700; */
+  justify-content: center;
+  /* line-height: 25px; */
+  overflow-wrap: break-word;
+  /* padding: 5px; */
+  /* padding-left: 45px; */
+  padding-right: 45px;
+  width: 450px;
+  text-decoration: none;
+  /* height: 40px; */
+  border-radius: 8px;
+  cursor: text;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+@media only screen and (max-width: 475px) and (min-width: 376px) {
+  .text-input {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 276px) {
+  .text-input {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 275px) and (min-width: 246px) {
+  .text-input {
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 245px) and (min-width: 226px) {
+  .text-input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 225px) and (min-width: 196px) {
+  .text-input {
+    width: 170px;
+  }
+}
+
+@media only screen and (max-width: 195px) and (min-width: 186px) {
+  .text-input {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 185px) and (min-width: 176px) {
+  .text-input {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 175px) and (min-width: 166px) {
+  .text-input {
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 165px) and (min-width: 156px) {
+  .text-input {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 155px) and (min-width: 146px) {
+  .text-input {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 145px) and (min-width: 136px) {
+  .text-input {
+    width: 110px;
+  }
+}
+
+@media only screen and (max-width: 135px) and (min-width: 126px) {
+  .text-input {
+    width: 100px;
+  }
+}

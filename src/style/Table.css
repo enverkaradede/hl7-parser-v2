@@ -1,0 +1,55 @@
+.table-div {
+  box-sizing: border-box;
+  width: 80vw;
+  height: 50vh;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 15px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 10em;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: auto;
+  margin-top: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+  table-layout: inherit;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* border: 1px solid black; */
+}
+
+tr {
+  border-bottom: 1px solid rgba(50, 50, 93, 0.25);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.light-font {
+  font-weight: normal;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 420px) {
+  .table-div {
+    width: 100vw;
+  }
+}
